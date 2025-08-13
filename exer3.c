@@ -3,14 +3,6 @@
 
 //Exercício 3 - Conversor de Unidades
 
-/* * Criar um conversor que: 
-* 1. Converta temperatura (Celsius para Fahrenheit) 
-primeiro deve entender o problema:
-1- para converte der celsius para fahrenheit é necessário fazer o seguinte cálculo:
-  °F = (°C × 9/5) + 32
-* 2. Converta distância (metros para quilômetros) 
-* 3. Converta peso (quilos para libras) */
-
 int main() {
 	float F, C, M, Q, quilos, libras;
 	
@@ -57,4 +49,5 @@ int main() {
 	printf("%.2f quilos = %.2f libras\n", quilos, libras);
 	
 	return 0;
+
 }
