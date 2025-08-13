@@ -1,10 +1,5 @@
 #include <stdio.h>
 
-/* * Programa que: 
-* 1. Leia 4 notas de um aluno 
-* 2. Calcule a média 
-* 3. Determine se foi aprovado (média >= 7.0) */
-
 int main() {
     double a, b, c, d, media;
     printf("Digite a nota a: ");
@@ -27,5 +22,6 @@ int main() {
     }
 
     return 0; 
+
 
 }
